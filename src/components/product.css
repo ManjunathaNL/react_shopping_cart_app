@@ -1,0 +1,54 @@
+.card-product .img-wrap {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  height: 210px;
+  text-align: center;
+}
+
+.card-product .info-wrap {
+  overflow: hidden;
+  padding: 15px;
+}
+.card-product {
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+
+.card-product .price-old {
+  color: #999;
+}
+
+.float-right {
+  text-decoration: none;
+  color: white;
+}
+
+.price-btn {
+  width: 160%;
+  display: flex;
+  height: 20%;
+}
+.price-new{
+font-size: 15px;
+font-weight: 600;
+}
+.bottom-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  background-color: black;
+  padding: 6px;
+  margin-left: 2rem;
+}
+
+a:focus, a:hover {
+  color: #ebeff3;
+  text-decoration: none;
+}
